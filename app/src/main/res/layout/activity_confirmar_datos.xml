@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ConfirmarDatos">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"
+        android:text="@string/confirmarDatos"
+        android:textSize="30dp" />
+    <TextView
+        android:text="Nombre: "
+        android:textStyle="bold|italic"
+        android:id="@+id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        />
+    <TextView
+        android:textStyle="bold|italic"
+        android:id="@+id/nombre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvnombre"
+        android:layout_below="@+id/textView"
+        />
+    <TextView
+        android:text="Fecha: "
+        android:textStyle="bold|italic"
+        android:id="@+id/tvfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre1"
+        />
+    <TextView
+        android:id="@+id/fecha1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvfecha"
+        android:layout_below="@+id/nombre1"
+        />
+    <TextView
+        android:text="Telefono: "
+        android:textStyle="bold|italic"
+        android:id="@+id/tvtelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fecha1"
+        />
+    <TextView
+        android:id="@+id/telefono1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fecha1"
+        android:layout_toRightOf="@+id/tvtelefono"
+        />
+    <TextView
+        android:text="Gmail: "
+        android:textStyle="bold|italic"
+        android:id="@+id/tvgmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telefono1"
+        />
+    <TextView
+        android:id="@+id/gmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telefono1"
+        android:layout_toRightOf="@+id/tvgmail"
+        />
+    <TextView
+        android:text="Descripcion: "
+        android:textStyle="bold|italic"
+        android:id="@+id/tvdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gmail1"
+        />
+    <TextView
+        android:id="@+id/descripcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gmail1"
+        android:layout_toRightOf="@+id/tvdescripcion"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/descripcion1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="validar1"
+        android:text="@string/accion_editar"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

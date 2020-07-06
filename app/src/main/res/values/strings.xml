@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_fecha">Fecha de Nacimiento</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_gmail">Email</string>
+    <string name="hint_DescripciónContacto">Descripción </string>
+
+    <string name="accion_aceptar">Siguiente</string>
+    <string name="confirmarDatos">Confirmar Datos</string>
+    <string name="accion_editar">Editar Datos</string>
+</resources>
